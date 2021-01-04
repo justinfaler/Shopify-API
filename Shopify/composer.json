@@ -1,0 +1,22 @@
+{
+	"name": "developer-star/shopify",
+	"type": "library",
+	"description": "Simple Shopify API client in PHP",
+	"keywords": ["shopify","api"],
+	"homepage": "https://github.com/developer-star/shopify",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Kennet Dastrup",
+			"email": "dastrup.denmark@gmail.com",
+			"homepage": "https://github.com/developer-star"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"developer-star/http": "dev-master"
+	},
+	"autoload": {
+		"files": ["shopify.php"]
+	}
+}
